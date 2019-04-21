@@ -13,6 +13,7 @@ var animals = [
 var namesMap = animals.map(animal =>  animal.name + ' is a ' + animal.species)
 console.log(namesMap)
 
+// For loop implementing the same code for comparison.
 var names = []
 for (let i = 0; i < animals.length; i++) {
     names.push(animals[i].name + ' is a ' + animals[i].species)

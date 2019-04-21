@@ -9,11 +9,10 @@ var animals = [
     { name: 'Jimmy', species: 'fish' }
 ]
 
-var filteredAnimalsFilter = animals.filter(function(animal){
-    return animal.species === 'dog'
-})
+var filteredAnimalsFilter = animals.filter(animal => animal.species === 'dog')
 console.log(filteredAnimalsFilter)
 
+// For Loop implementing the same code for comparison.
 var filteredAnimals = []
 for (let i = 0; i < animals.length; i++) {
     if (animals[i].species === 'dog') {
