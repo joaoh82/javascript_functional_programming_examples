@@ -1,3 +1,5 @@
+// Filter method creates a new array with all elements that pass the test implemented provided function.
+// Function must return a boolean
 var animals = [
     { name: 'FLuffykins', species:'rabbit' },
     { name: 'Caro', species: 'dog' },
