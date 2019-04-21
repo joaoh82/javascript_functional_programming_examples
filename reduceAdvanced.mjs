@@ -1,5 +1,6 @@
 import fs from 'fs'
 
+// Here I use a chain of functions, typical in functional programming
 var output = fs.readFileSync('data.txt', 'utf8')
     .trim()
     .split('\r\n')
