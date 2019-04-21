@@ -1,3 +1,6 @@
+// A Map method creates a new array with the results of calling a provided function
+// on every element in the array
+// Function can return any transformation of the element in the array
 var animals = [
     { name: 'FLuffykins', species:'rabbit' },
     { name: 'Caro', species: 'dog' },
