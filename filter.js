@@ -19,4 +19,4 @@ for (let i = 0; i < animals.length; i++) {
         filteredAnimals.push(animals[i])
     }
 }
-console.log(filteredAnimals)
+console.log(JSON.stringify(filteredAnimals, null, 2))
